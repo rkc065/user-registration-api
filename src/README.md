@@ -17,17 +17,22 @@ https://robin-user-registration-api.herokuapp.com/
 ------------------------------------------------------------------------------------
 
 HTTP Requests:
-Request Name 	HTTP request type	Request URL	Authentication
-Register user	POST	{{URL}}/users	No
-Login user	POST	{{URL}}/users/login	No
-Logout from the current session	POST	{{URL}}/users/logout	Yes
-Logout from all the sessions	POST	{{URL}}/users/logoutAll	Yes
-View my profile	GET	{{URL}}/get/me	Yes
-Get all users	GET	{{URL}}/users	Yes
-Get user by Id	GET	{{URL}}/user_by_id/:Id	No
-Find user by name	GET	{{URL}}/users/:Name	No
-Find user by contact	GET	{{URL}}/user/:Contact	No
-![image](https://user-images.githubusercontent.com/36421233/131257680-02122c6d-1c23-4ab0-896c-0a2fad7442f0.png)
+
+Request Name 			HTTP request type	      Request URL		Authentication
+-----------------------------------------------------------------------------------------------------------
+Register user	        	 POST	              {{URL}}/users			No
+Login user	        	 POST		      {{URL}}/users/login		No
+Logout from the current session  POST		      {{URL}}/users/logout		Yes
+Logout from all the sessions	 POST		      {{URL}}/users/logoutAll		Yes
+View my profile			 GET		      {{URL}}/get/me			Yes
+Get all users			 GET		      {{URL}}/users			Yes
+Get user by Id			 GET		      {{URL}}/user_by_id/:Id		No
+Find user by name		 GET		      {{URL}}/users/:Name		No
+Find user by contact		 GET		      {{URL}}/user/:Contact		No
+
+![image](https://user-images.githubusercontent.com/36421233/131257749-893d52fe-065d-43b0-86ad-1f6736281fe5.png)
+
+
 
 		
 		
