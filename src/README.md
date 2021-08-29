@@ -64,7 +64,7 @@ Set the Bearer Token in the Postman for authentication
 ![image](https://user-images.githubusercontent.com/36421233/131258289-e960d00f-d446-4ce9-9746-f24f1c62ac37.png)
 
 
-Postman Test script to automate the responses
+Postman Test script to automate the requests for authentication
 
 a.) Register user(request)
 
