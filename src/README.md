@@ -30,6 +30,9 @@ Get user by Id			 GET		      		{{URL}}/user_by_id/:Id			No
 Find user by name		 GET		      		{{URL}}/users/:Name			No
 Find user by contact		 GET		      		{{URL}}/user/:Contact			No
 
+
+Request Name----- Register user  ##  GET   ## {{URL}}/users
+
 ![image](https://user-images.githubusercontent.com/36421233/131257749-893d52fe-065d-43b0-86ad-1f6736281fe5.png)
 
 
