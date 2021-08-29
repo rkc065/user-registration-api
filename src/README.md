@@ -88,6 +88,30 @@ pm.environment.set('authToken',pm.response.json().token)
 ![image](https://user-images.githubusercontent.com/36421233/131258392-758843a5-ca68-4ee3-b067-f2db5b3c1520.png)
 
 
+
+Screenshots
+
+![image](https://user-images.githubusercontent.com/36421233/131258537-b01c5e9e-1243-44eb-a145-278fa4cbad3d.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131258550-84ddcf94-3ced-4839-b773-d605568e5d1b.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259710-99c2a3fa-c973-45ed-bae0-fd8ab5789560.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259744-7571e712-e440-4487-b27c-05ed372f5aeb.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259802-4edceda3-a8f1-4e1d-a13e-35b2795ff67d.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259823-5c5923bf-c7b6-44af-88dc-c522bb124226.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259842-a7eb2d29-3752-441e-a473-0ba4e8819e8d.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259859-d868bd52-a7a6-4d8a-8364-0369672e083a.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259871-bb122d1d-55ea-4ec2-aff3-20072bf7d8c3.png)
+
+![image](https://user-images.githubusercontent.com/36421233/131259887-ba7e3074-9a3f-453e-ae74-ae2258cbc997.png)
+
+
 		
 		
 		
