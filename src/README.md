@@ -71,6 +71,7 @@ if(pm.response.code===201)
 {
 pm.environment.set('authToken',pm.response.json().token)
 }
+
 ![image](https://user-images.githubusercontent.com/36421233/131258361-25303e99-7bc4-4337-8333-0bae09288ee8.png)
 
 
