@@ -31,7 +31,20 @@ Find user by name		 GET		      		{{URL}}/users/:Name			No
 Find user by contact		 GET		      		{{URL}}/user/:Contact			No
 
 
-Request Name----- Register user  ##  GET   ## {{URL}}/users
+Register user 				(POST) --- {{URL}}/users
+Login user    				(POST) --- {{URL}}/users/login
+Logout from the current session  	(POST) --- {{URL}}/users/logout
+Logout from all the sessions		(POST) --- {{URL}}/users/logoutAll
+View my profile				(GET)  --- {{URL}}/get/me
+Get all users				(GET)  --- {{URL}}/users
+Get user by Id				(GET)  --- {{URL}}/user_by_id/:Id
+Find user by name			(GET)  --- {{URL}}/users/:Name
+Find user by contact			(GET)  --- {{URL}}/user/:Contact
+
+
+
+
+
 
 ![image](https://user-images.githubusercontent.com/36421233/131257749-893d52fe-065d-43b0-86ad-1f6736281fe5.png)
 
