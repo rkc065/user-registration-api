@@ -59,7 +59,8 @@ Find user by contact			(GET)  --- {{URL}}/user/:Contact
 ![image](https://user-images.githubusercontent.com/36421233/131257749-893d52fe-065d-43b0-86ad-1f6736281fe5.png)
 
 
-Set the Bearer Token in the Postman as below
+Set the Bearer Token in the Postman for authentication
+
 ![image](https://user-images.githubusercontent.com/36421233/131258289-e960d00f-d446-4ce9-9746-f24f1c62ac37.png)
 
 
