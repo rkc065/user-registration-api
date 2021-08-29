@@ -56,13 +56,32 @@ Find user by name			(GET)  --- {{URL}}/users/:Name
 
 Find user by contact			(GET)  --- {{URL}}/user/:Contact
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36421233/131257749-893d52fe-065d-43b0-86ad-1f6736281fe5.png)
 
+
+Set the Bearer Token in the Postman as below
+![image](https://user-images.githubusercontent.com/36421233/131258289-e960d00f-d446-4ce9-9746-f24f1c62ac37.png)
+
+
+Postman Test script to automate the responses
+
+a.) Register user(request)
+
+if(pm.response.code===201)
+{
+pm.environment.set('authToken',pm.response.json().token)
+}
+![image](https://user-images.githubusercontent.com/36421233/131258361-25303e99-7bc4-4337-8333-0bae09288ee8.png)
+
+
+b.) Login User (request)
+
+if(pm.response.code===200)
+{
+pm.environment.set('authToken',pm.response.json().token)
+}
+
+![image](https://user-images.githubusercontent.com/36421233/131258392-758843a5-ca68-4ee3-b067-f2db5b3c1520.png)
 
 
 		
