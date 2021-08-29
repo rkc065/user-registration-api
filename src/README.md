@@ -1,4 +1,4 @@
-Prerequisite for the project
+Prerequisite for the project:--
 
 1.) NPM packages
 
@@ -34,6 +34,8 @@ Get all users			 GET		      		{{URL}}/users				Yes
 Get user by Id			 GET		      		{{URL}}/user_by_id/:Id			No
 Find user by name		 GET		      		{{URL}}/users/:Name			No
 Find user by contact		 GET		      		{{URL}}/user/:Contact			No
+
+{{URL}}= https://robin-user-registration-api.herokuapp.com  (Set this an Environment variables in Postman)
 
 
 Register user 				(POST) --- {{URL}}/users
