@@ -27,7 +27,7 @@ https://robin-user-registration-api.herokuapp.com/
 HTTP Requests:
 
 Request Name 		                            	HTTP request type	      	    Request URL		   	         Authentication
------------------------------------------------------------------------------------------------------------------------
+
 Register user	        	                            POST	              		{{URL}}/users				               No
 Login user	        	                               POST		      	        {{URL}}/users/login			          No
 Logout from the current session                    POST		      		       {{URL}}/users/logout			         Yes
