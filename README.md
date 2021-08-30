@@ -133,7 +133,6 @@ To Login to the system
         "password":"my@1234"
 }
 
-
 Screenshots
 
 ![image](https://user-images.githubusercontent.com/36421233/131258537-b01c5e9e-1243-44eb-a145-278fa4cbad3d.png)
