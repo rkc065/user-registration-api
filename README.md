@@ -94,7 +94,7 @@ pm.environment.set('authToken',pm.response.json().token)
  
  B.) password
  
- C.) contact     (Unique Column)
+ C.) contact      (Unique Column)
  
  D.) address
  
@@ -107,16 +107,31 @@ E.g.
 -------------------------------------------------------------------------------------
 
 {
-     "name": "Robin",
-     "password":"my@1234",
-        "contact":9877054097,
-        "address":"Jamshedpur, Jharakhand",
-        "gender": "Male",
-        "country":"India"
+      "name": "Robin",
+      "password":"my@1234",
+      "contact":9877054097,
+      "address":"Jamshedpur, Jharakhand",
+      "gender": "Male",
+      "country":"India"
 }
 
 --------------------------------------------------------------------------------------
 
+
+To Login to the system
+--------------------------------------------------------------------------------------
+  
+ A.)  contact
+  
+ B.)  password
+ 
+ E.g.
+ --------------------------------------------------------------------------------------
+
+{
+        "contact":"9877054097",
+        "password":"my@1234"
+}
 
 
 Screenshots
