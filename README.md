@@ -86,6 +86,21 @@ pm.environment.set('authToken',pm.response.json().token)
 }
 
 ![image](https://user-images.githubusercontent.com/36421233/131258392-758843a5-ca68-4ee3-b067-f2db5b3c1520.png)
+ 
+ Key Columns to register the user
+ ----------------------------------------------------------
+ A.) name
+ 
+ B.)password
+ 
+ C.)contact
+ 
+ D.)address
+ 
+ E.)gender
+ 
+ F.)country
+
 
 
 
