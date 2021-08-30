@@ -25,17 +25,17 @@ https://robin-user-registration-api.herokuapp.com/
 
 HTTP Requests:
 
-Request Name 			HTTP request type	      	  Request URL			Authentication
+Request Name 		                            	HTTP request type	      	    Request URL		   	         Authentication
 -----------------------------------------------------------------------------------------------------------------------
-Register user	        	 POST	              		{{URL}}/users				No
-Login user	        	 POST		      		{{URL}}/users/login			No
-Logout from the current session  POST		      		{{URL}}/users/logout			Yes
-Logout from all the sessions	 POST		      		{{URL}}/users/logoutAll			Yes
-View my profile			 GET		      		{{URL}}/get/me				Yes
-Get all users			 GET		      		{{URL}}/users				Yes
-Get user by Id			 GET		      		{{URL}}/user_by_id/:Id			No
-Find user by name		 GET		      		{{URL}}/users/:Name			No
-Find user by contact		 GET		      		{{URL}}/user/:Contact			No
+Register user	        	                            POST	              		{{URL}}/users				               No
+Login user	        	                               POST		      	        {{URL}}/users/login			          No
+Logout from the current session                    POST		      		       {{URL}}/users/logout			         Yes
+Logout from all the sessions	                      POST		      		       {{URL}}/users/logoutAll			      Yes
+View my profile			                                 GET		      		        {{URL}}/get/me				              Yes
+Get all users			                                   GET		      		        {{URL}}/users				               Yes
+Get user by Id			                                  GET		      		        {{URL}}/user_by_id/:Id			       No
+Find user by name		                                GET		      		        {{URL}}/users/:Name			          No
+Find user by contact		                             GET		      		        {{URL}}/user/:Contact			        No
 
 {{URL}}= https://robin-user-registration-api.herokuapp.com  (Set this an Environment variables in Postman)
 
@@ -87,20 +87,34 @@ pm.environment.set('authToken',pm.response.json().token)
 
 ![image](https://user-images.githubusercontent.com/36421233/131258392-758843a5-ca68-4ee3-b067-f2db5b3c1520.png)
  
- Key Columns to register the user
- ----------------------------------------------------------
+ Key Columns to Register the user
+ ---------------------------------------------------------------------------------------
  A.) name
  
- B.)password
+ B.) password
  
- C.)contact
+ C.) contact     (Unique Column)
  
- D.)address
+ D.) address
  
- E.)gender
+ E.) gender
  
- F.)country
+ F.) country
 
+
+E.g.
+-------------------------------------------------------------------------------------
+
+{
+     "name": "Robin",
+     "password":"my@1234",
+        "contact":9877054097,
+        "address":"Jamshedpur, Jharakhand",
+        "gender": "Male",
+        "country":"India"
+}
+
+--------------------------------------------------------------------------------------
 
 
 
